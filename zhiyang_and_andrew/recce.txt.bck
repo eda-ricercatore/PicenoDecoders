@@ -1,0 +1,106 @@
+01180573.pdf
+Definition of the Viterbi algorithm (maximum likelihood algorithm),
+and performs a search for the minimum cost path.
+Advantages of the Viterbi algorithm compared to other convolutional
+techniques
+Viterbi decoder consist of 3 main components:
+# Branch-Metric-Unit (BMU)
+# Add-Compare-Select (ACS)
+# Survivor-Memory-Unit (SMU)
+BMU: perform arithmetic operations using modified T-algorithm
+ACS: perform arithmetic operations using radix-2 butterfly module
+SMU: trace the optimum path using the modified back-trace method
+	 and the decision pointer, d, that is available from the
+	 output of the ACS
+
+
+
+
+01205907.pdf
+Discusses the Turbo decoder
+
+
+
+01208474.pdf
+Advanced architecture of the Viterbi decoder demonstrating how
+the components are connected together
+Stephanie A. Augsburger - Intel Research
+
+
+
+01237430.pdf
+At the expense of a modest increase in area, the performance is
+increased by 33%.
+The ACS unit is the bottleneck, and its architecture needs to
+be redesigned.
+Solution requires the increase in the number of trellis states
+to improve the performance of the decoder by increasing
+throughput.
+Description of the Viterbi algorithm, ACS unit, and the new
+architecture
+ACS is performed sequentially/serially, and forms the worst-case
+bottleneck for the throughput of the Viterbi decoder.
+By modifying the ACS unit from a serial architecture into a
+parallel architecture, the throughput of the decoder can be
+improved. This is done by making the add and comparison
+operations be performed in parallel
+See Figure 9 on how to connect the blocks of the Viterbi decoder
+together
+
+
+01261294.pdf
+Analog circuit that uses another decoding algorithm
+
+
+
+01302147.pdf
+Novel architecture for the ACS units of the Viterbi decoder, and
+how are they connected
+
+
+01333334.pdf
+Viterbi Algorithm [1] belongs to a large class of FEC  (Forward
+Error Correction) codes known as convolution codes  
+Asynchronous and synchronous architectures for the Viterbi decoder
+and its area-efficient, low-power, and robust ACS unit are described
+poor reference
+
+
+
+01440637.pdf
+TMU & Path metric --> ACS --> SMU
+transition metric unit (TMU)
+add–compare–select unit (ACSU)
+survivor memory unit (SMU)
+Why use
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

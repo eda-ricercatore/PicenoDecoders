@@ -1,0 +1,123 @@
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile /auto/home-scf-07/zhiyango/ee577b/projs/viterbi/nanosim/result/testbench.fsdb 1 openonly
+# PF:1
+wm geometry .sigmgr._PF:1 208x311+640+511
+wm geometry .sigmgr._PF:1 208x311+648+501
+wm geometry .sigmgr._PF:1 208x311+651+491
+wm geometry .sigmgr._PF:1 208x311+661+481
+wm geometry .sigmgr._PF:1 208x311+709+439
+wm geometry .sigmgr._PF:1 208x311+751+405
+wm geometry .sigmgr._PF:1 208x311+841+331
+wm geometry .sigmgr._PF:1 208x311+889+291
+wm geometry .sigmgr._PF:1 208x311+953+225
+wm geometry .sigmgr._PF:1 208x311+1003+163
+wm geometry .sigmgr._PF:1 208x311+1033+113
+wm geometry .sigmgr._PF:1 208x311+1047+35
+wm geometry .sigmgr._PF:1 208x311+1047+26
+wm geometry .sigmgr._PF:1 208x311+1046+26
+wm geometry .sigmgr._PF:1 208x311+1043+26
+wm geometry .sigmgr._PF:1 208x311+1042+26
+wm geometry .sigmgr._PF:1 208x311+1040+26
+wm geometry .sigmgr._PF:1 208x311+1039+26
+wm geometry .sigmgr._PF:1 208x311+1038+26
+wm geometry .sigmgr._PF:1 208x311+1036+26
+wm geometry .sigmgr._PF:1 208x311+1028+26
+wm geometry .sigmgr._PF:1 208x311+1026+26
+wm geometry .sigmgr._PF:1 208x311+1022+26
+wm geometry .sigmgr._PF:1 208x311+1017+26
+wm geometry .sigmgr._PF:1 208x311+1015+26
+wm geometry .sigmgr._PF:1 208x311+1008+26
+wm geometry .sigmgr._PF:1 208x311+994+26
+wm geometry .sigmgr._PF:1 208x311+978+26
+wm geometry .sigmgr._PF:1 208x311+970+26
+wm geometry .sigmgr._PF:1 208x311+956+26
+wm geometry .sigmgr._PF:1 208x311+949+26
+wm geometry .sigmgr._PF:1 208x311+947+26
+wm geometry .sigmgr._PF:1 208x313+947+26
+wm geometry .sigmgr._PF:1 208x359+947+26
+wm geometry .sigmgr._PF:1 208x507+947+26
+wm geometry .sigmgr._PF:1 208x691+947+26
+wm geometry .sigmgr._PF:1 208x781+947+26
+wm geometry .sigmgr._PF:1 208x786+947+26
+wm geometry .sigmgr._PF:1 208x788+947+26
+wm geometry .sigmgr._PF:1 208x789+947+26
+wm geometry .sigmgr._PF:1 208x795+947+26
+wm geometry .sigmgr._PF:1 208x797+947+26
+wm geometry .sigmgr._PF:1 208x808+947+26
+wm geometry .sigmgr._PF:1 208x841+947+26
+wm geometry .sigmgr._PF:1 208x862+947+26
+pf:read PF:1 {clk cx_0 cx_1 d}
+# WF:1:1 WF:1:2 WF:1:3 WF:1:4
+Graph addsignal {WF:1:1 WF:1:2 WF:1:3 WF:1:4} -region {d d d d} -yview {real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x)} -tracehi {1 1 1 1}
+# Signal0 Signal1 Signal2 Signal3
+Mdi:Resize 840 660
+Mdi:Move 5 5
+wm geometry .sigmgr 376x200+564+188
+wm geometry .sigmgr 376x200+566+194
+wm geometry .sigmgr 376x200+568+202
+wm geometry .sigmgr 376x200+569+205
+wm geometry .sigmgr 376x200+570+213
+wm geometry .sigmgr 376x200+576+249
+wm geometry .sigmgr 376x200+583+303
+wm geometry .sigmgr 376x200+585+337
+wm geometry .sigmgr 376x200+585+373
+wm geometry .sigmgr 376x200+585+417
+wm geometry .sigmgr 376x200+585+435
+wm geometry .sigmgr 376x200+585+453
+wm geometry .sigmgr 376x200+584+460
+wm geometry .sigmgr 376x200+583+470
+wm geometry .sigmgr 376x200+582+478
+wm geometry .sigmgr 376x200+581+482
+wm geometry .sigmgr 376x200+580+487
+wm geometry .sigmgr 376x200+578+491
+wm geometry .sigmgr 376x200+577+496
+wm geometry .sigmgr 376x200+576+500
+wm geometry .sigmgr 376x200+575+504
+wm geometry .sigmgr 376x200+574+506
+wm geometry .sigmgr 376x200+574+508
+wm geometry .sigmgr 376x200+574+509
+wm geometry .sigmgr 376x200+573+510
+wm geometry .sigmgr 376x200+573+511
+wm geometry .sigmgr 376x200+572+512
+wm geometry .sigmgr 376x200+572+514
+wm geometry .sigmgr 376x200+572+516
+wm geometry .sigmgr 376x200+572+517
+wm geometry .sigmgr 376x200+571+518
+wm geometry .sigmgr 376x200+571+519
+wm geometry .sigmgr 376x200+571+520
+wm geometry .sigmgr 376x200+571+521
+wm geometry .sigmgr 376x200+571+522
+wm geometry .sigmgr 376x200+571+523
+wm geometry .sigmgr 376x200+571+524
+wm geometry .sigmgr 376x200+570+524
+wm geometry .sigmgr 376x200+570+525
+wm geometry .sigmgr 376x200+570+526
+wm geometry .sigmgr 376x200+569+526
+wm geometry .sigmgr 376x200+569+527
+wm geometry .sigmgr 376x200+568+527
+wm geometry .sigmgr 376x200+568+528
+wm geometry .sigmgr 376x200+568+529
+wm geometry .sigmgr 376x200+567+529
+wm geometry .sigmgr 376x200+567+530
+wm geometry .sigmgr 376x200+566+530
+wm geometry .sigmgr 376x200+566+531
+wm geometry .sigmgr 376x200+565+531
+wm geometry .sigmgr 376x200+564+531
+wm geometry .sigmgr 376x200+564+532
+wm geometry .sigmgr 376x200+563+532
+wm geometry .sigmgr 376x200+562+532
+wm geometry .sigmgr 376x200+562+533
+wm geometry .sigmgr 376x200+562+534
+wm geometry .sigmgr 376x200+561+534
+wm geometry .sigmgr 376x200+560+534
+wm geometry .sigmgr 376x200+560+535
+wm geometry .sigmgr 376x200+559+535
+wm geometry .sigmgr 376x200+559+536
+pf:read PF:1 {reset}
+# WF:1:5
+Graph addsignal WF:1:5 -region d -yview real(y) -xview real(x) -tracehi 1
+# Signal4
+Graph:DSel
+Graph:Select Graph0
+Mdi:Close
+ScopeSigMgr:Unload 0 {{(1) testbench.fsdb}}

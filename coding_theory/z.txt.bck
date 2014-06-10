@@ -1,0 +1,145 @@
+==Display the input text file
+more input.txt
+0 1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 1 0 0 0 0 0 0 0 0 0 0 
+1 1 0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 1 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 1 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 1 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 1 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 1 0 
+1 1 0 0 0 0 0 0 0 0 0 0 0 1 
+==Produce the G and H matrices, and the Verilog models
+parse.pl input.txt
+=======================================================
+Reading the input file:
+To produce Parity-check and Generator matrices
+=======================================================
+
+The matrix in the input file is a: h matrix 
+
+==>Print the G matrix for the given H matrix
+num_cols-num_rows>>>2<<<
+1 0 %%%%		Current Line Is:::0 1 1 0 0 0 0 0 0 0 0 0 0 0 
+-_-_-
+!!0 cur_row0cur_col0======cur_char0cur_row0cur_col0======cur_char1cur_row0cur_col0======cur_char1cur_row0cur_col0======cur_char0cur_row0cur_col0======cur_char0cur_row0cur_col0======cur_char0cur_row0cur_col0======cur_char0cur_row0cur_col0======cur_char0cur_row0cur_col0======cur_char0cur_row0cur_col0======cur_char0cur_row0cur_col0======cur_char0cur_row0cur_col0======cur_char0cur_row0cur_col0======cur_char0cur_row0cur_col0======cur_char0cur_row0cur_col0%%%%		Current Line Is:::1 0 0 1 0 0 0 0 0 0 0 0 0 0 
+-_-_-
+!!1 cur_row1cur_col1======cur_char1cur_row1cur_col1======cur_char0cur_row1cur_col1======cur_char0cur_row1cur_col1======cur_char1cur_row1cur_col1======cur_char0cur_row1cur_col1======cur_char0cur_row1cur_col1======cur_char0cur_row1cur_col1======cur_char0cur_row1cur_col1======cur_char0cur_row1cur_col1======cur_char0cur_row1cur_col1======cur_char0cur_row1cur_col1======cur_char0cur_row1cur_col1======cur_char0cur_row1cur_col1======cur_char0cur_row1cur_col1%%%%		Current Line Is:::1 1 0 0 1 0 0 0 0 0 0 0 0 0 
+-_-_-
+!!1 cur_row2cur_col2======cur_char1cur_row2cur_col2======cur_char1cur_row2cur_col2======cur_char0cur_row2cur_col2======cur_char0cur_row2cur_col2======cur_char1cur_row2cur_col2======cur_char0cur_row2cur_col2======cur_char0cur_row2cur_col2======cur_char0cur_row2cur_col2======cur_char0cur_row2cur_col2======cur_char0cur_row2cur_col2======cur_char0cur_row2cur_col2======cur_char0cur_row2cur_col2======cur_char0cur_row2cur_col2======cur_char0cur_row2cur_col2%%%%		Current Line Is:::0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+-_-_-
+!!0 cur_row3cur_col3======cur_char0cur_row3cur_col3======cur_char0cur_row3cur_col3======cur_char0cur_row3cur_col3======cur_char0cur_row3cur_col3======cur_char0cur_row3cur_col3======cur_char1cur_row3cur_col3======cur_char0cur_row3cur_col3======cur_char0cur_row3cur_col3======cur_char0cur_row3cur_col3======cur_char0cur_row3cur_col3======cur_char0cur_row3cur_col3======cur_char0cur_row3cur_col3======cur_char0cur_row3cur_col3======cur_char0cur_row3cur_col3%%%%		Current Line Is:::1 0 0 0 0 0 1 0 0 0 0 0 0 0 
+-_-_-
+!!1 cur_row4cur_col4======cur_char1cur_row4cur_col4======cur_char0cur_row4cur_col4======cur_char0cur_row4cur_col4======cur_char0cur_row4cur_col4======cur_char0cur_row4cur_col4======cur_char0cur_row4cur_col4======cur_char1cur_row4cur_col4======cur_char0cur_row4cur_col4======cur_char0cur_row4cur_col4======cur_char0cur_row4cur_col4======cur_char0cur_row4cur_col4======cur_char0cur_row4cur_col4======cur_char0cur_row4cur_col4======cur_char0cur_row4cur_col4%%%%		Current Line Is:::1 0 0 0 0 0 0 1 0 0 0 0 0 0 
+-_-_-
+!!1 cur_row5cur_col5======cur_char1cur_row5cur_col5======cur_char0cur_row5cur_col5======cur_char0cur_row5cur_col5======cur_char0cur_row5cur_col5======cur_char0cur_row5cur_col5======cur_char0cur_row5cur_col5======cur_char0cur_row5cur_col5======cur_char1cur_row5cur_col5======cur_char0cur_row5cur_col5======cur_char0cur_row5cur_col5======cur_char0cur_row5cur_col5======cur_char0cur_row5cur_col5======cur_char0cur_row5cur_col5======cur_char0cur_row5cur_col5%%%%		Current Line Is:::0 1 0 0 0 0 0 0 1 0 0 0 0 0 
+-_-_-
+!!0 cur_row6cur_col6======cur_char0cur_row6cur_col6======cur_char1cur_row6cur_col6======cur_char0cur_row6cur_col6======cur_char0cur_row6cur_col6======cur_char0cur_row6cur_col6======cur_char0cur_row6cur_col6======cur_char0cur_row6cur_col6======cur_char0cur_row6cur_col6======cur_char1cur_row6cur_col6======cur_char0cur_row6cur_col6======cur_char0cur_row6cur_col6======cur_char0cur_row6cur_col6======cur_char0cur_row6cur_col6======cur_char0cur_row6cur_col6%%%%		Current Line Is:::1 0 0 0 0 0 0 0 0 1 0 0 0 0 
+-_-_-
+!!1 cur_row7cur_col7======cur_char1cur_row7cur_col7======cur_char0cur_row7cur_col7======cur_char0cur_row7cur_col7======cur_char0cur_row7cur_col7======cur_char0cur_row7cur_col7======cur_char0cur_row7cur_col7======cur_char0cur_row7cur_col7======cur_char0cur_row7cur_col7======cur_char0cur_row7cur_col7======cur_char1cur_row7cur_col7======cur_char0cur_row7cur_col7======cur_char0cur_row7cur_col7======cur_char0cur_row7cur_col7======cur_char0cur_row7cur_col7%%%%		Current Line Is:::0 1 0 0 0 0 0 0 0 0 1 0 0 0 
+-_-_-
+!!0 cur_row8cur_col8======cur_char0cur_row8cur_col8======cur_char1cur_row8cur_col8======cur_char0cur_row8cur_col8======cur_char0cur_row8cur_col8======cur_char0cur_row8cur_col8======cur_char0cur_row8cur_col8======cur_char0cur_row8cur_col8======cur_char0cur_row8cur_col8======cur_char0cur_row8cur_col8======cur_char0cur_row8cur_col8======cur_char1cur_row8cur_col8======cur_char0cur_row8cur_col8======cur_char0cur_row8cur_col8======cur_char0cur_row8cur_col8%%%%		Current Line Is:::1 0 0 0 0 0 0 0 0 0 0 1 0 0 
+-_-_-
+!!1 cur_row9cur_col9======cur_char1cur_row9cur_col9======cur_char0cur_row9cur_col9======cur_char0cur_row9cur_col9======cur_char0cur_row9cur_col9======cur_char0cur_row9cur_col9======cur_char0cur_row9cur_col9======cur_char0cur_row9cur_col9======cur_char0cur_row9cur_col9======cur_char0cur_row9cur_col9======cur_char0cur_row9cur_col9======cur_char0cur_row9cur_col9======cur_char1cur_row9cur_col9======cur_char0cur_row9cur_col9======cur_char0cur_row9cur_col9%%%%		Current Line Is:::1 0 0 0 0 0 0 0 0 0 0 0 1 0 
+-_-_-
+!!1 cur_row10cur_col10======cur_char1cur_row10cur_col10======cur_char0cur_row10cur_col10======cur_char0cur_row10cur_col10======cur_char0cur_row10cur_col10======cur_char0cur_row10cur_col10======cur_char0cur_row10cur_col10======cur_char0cur_row10cur_col10======cur_char0cur_row10cur_col10======cur_char0cur_row10cur_col10======cur_char0cur_row10cur_col10======cur_char0cur_row10cur_col10======cur_char0cur_row10cur_col10======cur_char1cur_row10cur_col10======cur_char0cur_row10cur_col10%%%%		Current Line Is:::1 1 0 0 0 0 0 0 0 0 0 0 0 1 
+-_-_-
+!!1 cur_row11cur_col11======cur_char1cur_row11cur_col11======cur_char1cur_row11cur_col11======cur_char0cur_row11cur_col11======cur_char0cur_row11cur_col11======cur_char0cur_row11cur_col11======cur_char0cur_row11cur_col11======cur_char0cur_row11cur_col11======cur_char0cur_row11cur_col11======cur_char0cur_row11cur_col11======cur_char0cur_row11cur_col11======cur_char0cur_row11cur_col11======cur_char0cur_row11cur_col11======cur_char0cur_row11cur_col11======cur_char1cur_row11cur_col11
+0 1 %%%%		Current Line Is:::0 1 1 0 0 0 0 0 0 0 0 0 0 0 
+-_-_-
+!!0 cur_row0cur_col0======cur_char0cur_row0cur_col0======cur_char1cur_row0cur_col0======cur_char1cur_row0cur_col0======cur_char0cur_row0cur_col0======cur_char0cur_row0cur_col0======cur_char0cur_row0cur_col0======cur_char0cur_row0cur_col0======cur_char0cur_row0cur_col0======cur_char0cur_row0cur_col0======cur_char0cur_row0cur_col0======cur_char0cur_row0cur_col0======cur_char0cur_row0cur_col0======cur_char0cur_row0cur_col0======cur_char0cur_row0cur_col0%%%%		Current Line Is:::1 0 0 1 0 0 0 0 0 0 0 0 0 0 
+-_-_-
+!!1 cur_row1cur_col1======cur_char1cur_row1cur_col1======cur_char0cur_row1cur_col1======cur_char0cur_row1cur_col1======cur_char1cur_row1cur_col1======cur_char0cur_row1cur_col1======cur_char0cur_row1cur_col1======cur_char0cur_row1cur_col1======cur_char0cur_row1cur_col1======cur_char0cur_row1cur_col1======cur_char0cur_row1cur_col1======cur_char0cur_row1cur_col1======cur_char0cur_row1cur_col1======cur_char0cur_row1cur_col1======cur_char0cur_row1cur_col1%%%%		Current Line Is:::1 1 0 0 1 0 0 0 0 0 0 0 0 0 
+-_-_-
+!!1 cur_row2cur_col2======cur_char1cur_row2cur_col2======cur_char1cur_row2cur_col2======cur_char0cur_row2cur_col2======cur_char0cur_row2cur_col2======cur_char1cur_row2cur_col2======cur_char0cur_row2cur_col2======cur_char0cur_row2cur_col2======cur_char0cur_row2cur_col2======cur_char0cur_row2cur_col2======cur_char0cur_row2cur_col2======cur_char0cur_row2cur_col2======cur_char0cur_row2cur_col2======cur_char0cur_row2cur_col2======cur_char0cur_row2cur_col2%%%%		Current Line Is:::0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+-_-_-
+!!0 cur_row3cur_col3======cur_char0cur_row3cur_col3======cur_char0cur_row3cur_col3======cur_char0cur_row3cur_col3======cur_char0cur_row3cur_col3======cur_char0cur_row3cur_col3======cur_char1cur_row3cur_col3======cur_char0cur_row3cur_col3======cur_char0cur_row3cur_col3======cur_char0cur_row3cur_col3======cur_char0cur_row3cur_col3======cur_char0cur_row3cur_col3======cur_char0cur_row3cur_col3======cur_char0cur_row3cur_col3======cur_char0cur_row3cur_col3%%%%		Current Line Is:::1 0 0 0 0 0 1 0 0 0 0 0 0 0 
+-_-_-
+!!1 cur_row4cur_col4======cur_char1cur_row4cur_col4======cur_char0cur_row4cur_col4======cur_char0cur_row4cur_col4======cur_char0cur_row4cur_col4======cur_char0cur_row4cur_col4======cur_char0cur_row4cur_col4======cur_char1cur_row4cur_col4======cur_char0cur_row4cur_col4======cur_char0cur_row4cur_col4======cur_char0cur_row4cur_col4======cur_char0cur_row4cur_col4======cur_char0cur_row4cur_col4======cur_char0cur_row4cur_col4======cur_char0cur_row4cur_col4%%%%		Current Line Is:::1 0 0 0 0 0 0 1 0 0 0 0 0 0 
+-_-_-
+!!1 cur_row5cur_col5======cur_char1cur_row5cur_col5======cur_char0cur_row5cur_col5======cur_char0cur_row5cur_col5======cur_char0cur_row5cur_col5======cur_char0cur_row5cur_col5======cur_char0cur_row5cur_col5======cur_char0cur_row5cur_col5======cur_char1cur_row5cur_col5======cur_char0cur_row5cur_col5======cur_char0cur_row5cur_col5======cur_char0cur_row5cur_col5======cur_char0cur_row5cur_col5======cur_char0cur_row5cur_col5======cur_char0cur_row5cur_col5%%%%		Current Line Is:::0 1 0 0 0 0 0 0 1 0 0 0 0 0 
+-_-_-
+!!0 cur_row6cur_col6======cur_char0cur_row6cur_col6======cur_char1cur_row6cur_col6======cur_char0cur_row6cur_col6======cur_char0cur_row6cur_col6======cur_char0cur_row6cur_col6======cur_char0cur_row6cur_col6======cur_char0cur_row6cur_col6======cur_char0cur_row6cur_col6======cur_char1cur_row6cur_col6======cur_char0cur_row6cur_col6======cur_char0cur_row6cur_col6======cur_char0cur_row6cur_col6======cur_char0cur_row6cur_col6======cur_char0cur_row6cur_col6%%%%		Current Line Is:::1 0 0 0 0 0 0 0 0 1 0 0 0 0 
+-_-_-
+!!1 cur_row7cur_col7======cur_char1cur_row7cur_col7======cur_char0cur_row7cur_col7======cur_char0cur_row7cur_col7======cur_char0cur_row7cur_col7======cur_char0cur_row7cur_col7======cur_char0cur_row7cur_col7======cur_char0cur_row7cur_col7======cur_char0cur_row7cur_col7======cur_char0cur_row7cur_col7======cur_char1cur_row7cur_col7======cur_char0cur_row7cur_col7======cur_char0cur_row7cur_col7======cur_char0cur_row7cur_col7======cur_char0cur_row7cur_col7%%%%		Current Line Is:::0 1 0 0 0 0 0 0 0 0 1 0 0 0 
+-_-_-
+!!0 cur_row8cur_col8======cur_char0cur_row8cur_col8======cur_char1cur_row8cur_col8======cur_char0cur_row8cur_col8======cur_char0cur_row8cur_col8======cur_char0cur_row8cur_col8======cur_char0cur_row8cur_col8======cur_char0cur_row8cur_col8======cur_char0cur_row8cur_col8======cur_char0cur_row8cur_col8======cur_char0cur_row8cur_col8======cur_char1cur_row8cur_col8======cur_char0cur_row8cur_col8======cur_char0cur_row8cur_col8======cur_char0cur_row8cur_col8%%%%		Current Line Is:::1 0 0 0 0 0 0 0 0 0 0 1 0 0 
+-_-_-
+!!1 cur_row9cur_col9======cur_char1cur_row9cur_col9======cur_char0cur_row9cur_col9======cur_char0cur_row9cur_col9======cur_char0cur_row9cur_col9======cur_char0cur_row9cur_col9======cur_char0cur_row9cur_col9======cur_char0cur_row9cur_col9======cur_char0cur_row9cur_col9======cur_char0cur_row9cur_col9======cur_char0cur_row9cur_col9======cur_char0cur_row9cur_col9======cur_char1cur_row9cur_col9======cur_char0cur_row9cur_col9======cur_char0cur_row9cur_col9%%%%		Current Line Is:::1 0 0 0 0 0 0 0 0 0 0 0 1 0 
+-_-_-
+!!1 cur_row10cur_col10======cur_char1cur_row10cur_col10======cur_char0cur_row10cur_col10======cur_char0cur_row10cur_col10======cur_char0cur_row10cur_col10======cur_char0cur_row10cur_col10======cur_char0cur_row10cur_col10======cur_char0cur_row10cur_col10======cur_char0cur_row10cur_col10======cur_char0cur_row10cur_col10======cur_char0cur_row10cur_col10======cur_char0cur_row10cur_col10======cur_char0cur_row10cur_col10======cur_char1cur_row10cur_col10======cur_char0cur_row10cur_col10%%%%		Current Line Is:::1 1 0 0 0 0 0 0 0 0 0 0 0 1 
+-_-_-
+!!1 cur_row11cur_col11======cur_char1cur_row11cur_col11======cur_char1cur_row11cur_col11======cur_char0cur_row11cur_col11======cur_char0cur_row11cur_col11======cur_char0cur_row11cur_col11======cur_char0cur_row11cur_col11======cur_char0cur_row11cur_col11======cur_char0cur_row11cur_col11======cur_char0cur_row11cur_col11======cur_char0cur_row11cur_col11======cur_char0cur_row11cur_col11======cur_char0cur_row11cur_col11======cur_char0cur_row11cur_col11======cur_char1cur_row11cur_col11
+=======================================================
+Print the G' matrix
+0 1 1 0 1 1 0 1 0 1 1 1 
+1 0 1 0 0 0 1 0 1 0 0 1 
+1 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 
+
+---		END		---
+==List files starting with encoder
+ls -l encoder*
+-rw-------   1 zhiyango       42 Oct 24 10:15 encoder.f
+-rw-------   1 zhiyango       52 Oct 24 10:15 encoder.f.bck
+-rw-------   1 zhiyango     1264 Oct 24 17:34 encoder.v
+-rw-------   1 zhiyango     1265 Oct 24 17:34 encoder.v.bck
+-rw-------   1 zhiyango      405 Nov 23 17:25 encoder_pl.v
+-rw-------   1 zhiyango     2795 Oct 24 17:20 encodertb.v
+-rw-------   1 zhiyango     2763 Oct 24 17:20 encodertb.v.bck
+==View the behavioral Verilog code for the encoder
+cat -n encoder_pl.v
+     1	module encoder (b,c);
+     2		output [14:0] c;
+     3		input [12:0] b;
+     4	
+     5		reg [14:0] c;
+     6	
+     7		always @(b)
+     8		begin
+     9			c[0] = b[1] ^ b[2] ^ b[4] ^ b[5] ^ b[7] ^ b[9] ^ b[10] ^ b[11];
+    10			c[1] = b[0] ^ b[2] ^ b[6] ^ b[8] ^ b[11];
+    11			c[2] = b[0];
+    12			c[3] = b[1];
+    13			c[4] = b[2];
+    14			c[5] = b[3];
+    15			c[6] = b[4];
+    16			c[7] = b[5];
+    17			c[8] = b[6];
+    18			c[9] = b[7];
+    19			c[10] = b[8];
+    20			c[11] = b[9];
+    21			c[12] = b[10];
+    22			c[13] = b[11];
+    23		end
+    24	endmodule
+==View the other matrix
+cat -n other_matrix.txt
+     1	1 0 0 1 1 0 1 1 0 1 0 1 1 1 
+     2	0 1 0 1 1 0 1 1 0 1 0 1 1 1 
+cat -n input.txt
+     1	0 1 1 0 0 0 0 0 0 0 0 0 0 0 
+     2	1 0 0 1 0 0 0 0 0 0 0 0 0 0 
+     3	1 1 0 0 1 0 0 0 0 0 0 0 0 0 
+     4	0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+     5	1 0 0 0 0 0 1 0 0 0 0 0 0 0 
+     6	1 0 0 0 0 0 0 1 0 0 0 0 0 0 
+     7	0 1 0 0 0 0 0 0 1 0 0 0 0 0 
+     8	1 0 0 0 0 0 0 0 0 1 0 0 0 0 
+     9	0 1 0 0 0 0 0 0 0 0 1 0 0 0 
+    10	1 0 0 0 0 0 0 0 0 0 0 1 0 0 
+    11	1 0 0 0 0 0 0 0 0 0 0 0 1 0 
+    12	1 1 0 0 0 0 0 0 0 0 0 0 0 1 

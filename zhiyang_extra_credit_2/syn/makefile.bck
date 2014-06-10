@@ -1,0 +1,15 @@
+#####################################################################
+#
+# This is written by Zhiyang Ong (zhiyango@usc.edu; 6004 9194 12)
+# for EE577b Extra Credit Homework #2
+#
+#####################################################################
+
+
+# Test case 5
+# Synthesize the encoder
+syn:
+	dc_shell-t -f ./script/encoder.tcl
+# Synthesize the decoder
+dec:
+	dc_shell-t -f ./script/decoder.tcl

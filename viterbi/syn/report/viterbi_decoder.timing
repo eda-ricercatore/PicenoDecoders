@@ -1,0 +1,59 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : viterbi_decoder
+Version: Y-2006.06-SP4
+Date   : Tue Nov 20 17:11:35 2007
+****************************************
+
+Operating Conditions: typical   Library: osu018_stdcells
+Wire Load Model Mode: top
+
+  Startpoint: path_metric_sm/pm0_reg[3]
+              (rising edge-triggered flip-flop)
+  Endpoint: d (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  path_metric_sm/pm0_reg[3]/CLK (DFFPOSX1)                0.00       0.00 r
+  path_metric_sm/pm0_reg[3]/Q (DFFPOSX1)                  0.24       0.24 f
+  path_metric_sm/pm0[3] (pmsm)                            0.00       0.24 f
+  survivor_path_dec/pm0[3] (spd)                          0.00       0.24 f
+  survivor_path_dec/selector1/pm0[3] (selector)           0.00       0.24 f
+  survivor_path_dec/selector1/U90/Y (INVX1)               0.13       0.37 r
+  survivor_path_dec/selector1/U89/Y (NAND2X1)             0.07       0.44 f
+  survivor_path_dec/selector1/U85/Y (AND2X1)              0.11       0.56 f
+  survivor_path_dec/selector1/U83/Y (AOI22X1)             0.09       0.65 r
+  survivor_path_dec/selector1/U82/Y (OAI21X1)             0.15       0.80 f
+  survivor_path_dec/selector1/U63/Y (MUX2X1)              0.14       0.94 f
+  survivor_path_dec/selector1/U60/Y (NOR2X1)              0.11       1.05 r
+  survivor_path_dec/selector1/U56/Y (AOI21X1)             0.06       1.11 f
+  survivor_path_dec/selector1/U55/Y (INVX1)               0.05       1.16 r
+  survivor_path_dec/selector1/U54/Y (OAI21X1)             0.07       1.23 f
+  survivor_path_dec/selector1/U52/Y (AND2X1)              0.14       1.37 f
+  survivor_path_dec/selector1/U50/Y (OAI22X1)             0.09       1.46 r
+  survivor_path_dec/selector1/U48/Y (MUX2X1)              0.07       1.53 f
+  survivor_path_dec/selector1/U47/Y (OAI21X1)             0.06       1.59 r
+  survivor_path_dec/selector1/U46/Y (OAI21X1)             0.04       1.64 f
+  survivor_path_dec/selector1/U45/Y (INVX1)               0.10       1.74 r
+  survivor_path_dec/selector1/U44/Y (MUX2X1)              0.12       1.85 f
+  survivor_path_dec/selector1/U43/Y (INVX1)               0.11       1.96 r
+  survivor_path_dec/selector1/d0 (selector)               0.00       1.96 r
+  survivor_path_dec/demux1/d0 (demux)                     0.00       1.96 r
+  survivor_path_dec/demux1/U27/Y (MUX2X1)                 0.13       2.09 f
+  survivor_path_dec/demux1/U26/Y (MUX2X1)                 0.06       2.16 r
+  survivor_path_dec/demux1/out (demux)                    0.00       2.16 r
+  survivor_path_dec/out (spd)                             0.00       2.16 r
+  d (out)                                                 0.00       2.16 r
+  data arrival time                                                  2.16
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

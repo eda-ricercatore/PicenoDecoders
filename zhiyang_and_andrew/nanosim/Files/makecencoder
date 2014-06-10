@@ -1,0 +1,61 @@
+###########################################################################
+# This is written by Zhiyang Ong (zhiyango@usc.edu; 6004 9194 12)
+# and Andrew Mattheisen (mattheis@usc.edu; 2134 5147 11)
+# Acknowledgements: Prof. Rashed Bhatti for providing the original script 
+#
+# 
+#
+#
+#
+#
+# WARNING TO USER: THE FOLLOWING STUFF WILL BE UPDATED!
+#
+###########################################################################
+# This is a general purpose makefile to compile and run                   #
+# Cadence NCSIM simulations                                               #
+#                                                                         #
+# To compile                                                              #
+# ----------                                                              #
+# %> make                                                                 #
+#                                                                         #
+# To run simulation in console mode                                       #
+# ---------------------------------                                       #
+# %> make sim                                                             #
+#                                                                         #
+# To run simulation in gui mode                                           #
+# -----------------------------                                           #
+# %> make simg                                                            #
+#                                                                         #
+# Directory Stucture                                                      #
+# ------------------                                                      #
+# This makefile assumes the following directory structure :               #
+#                                                                         #
+# ./        -- current directory, simulation is going to run from here    #
+# ./design  -- holds all design verilog files                             #
+# ./tb      -- holds testbench file(s)                                    #
+#                                                                         #
+###########################################################################
+
+
+
+#########################################################################
+# VARIABLES USED FOR OUR DESIGN...   
+
+# Directory containing the testbenches and their NC-Verilog setup scripts
+TESTBENCHES=	./tb/
+# Directory containing the design modules
+DESIGN= 	./design/
+
+
+
+
+
+#####################################################################
+# TARGETS THAT WORK FOR OUR DESIGN
+
+# Target to compile and simulate the convolutional encoder
+# Requires the updating the script cencodertb.f
+test_enc:
+	@echo Test the convolutional encoder
+	ncverilog -f cencodertb.f +gui
+	

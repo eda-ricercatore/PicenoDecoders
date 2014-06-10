@@ -1,0 +1,55 @@
+!#/usr/usc/bin/perl
+
+# This is written by Zhiyang Ong - student number: 6004-9194-12
+# for the second extra credit homework for EE 577B Fall 2007
+#
+#
+# Synopsis:
+# It takes in a matrix, and determines if it is a Parity-check matrix
+# or a Generator matrix. From this matrix, a Parity-check matrix and
+# a Generator matrix will be generated. The Parity-check matrix and
+# the Generator matrix will be used to generate the synthesizable
+# behavioral RTL Verilog code for the encoder and the decoder in
+# communication electronics.
+
+
+# ================================================================
+
+
+print "Generating the input file:\n";
+print "To produce a Parity-check matrix or a Generator matrix\n";
+print "\n";
+print "\n";
+
+# Number of rows in the generator matrix
+$num_rows = $ARGV[0];
+# Number of columns in the generator matrix
+$num_cols = $ARGV[1];
+# Size of the identity matrix I in G = num_rows
+# Is this a G or H matrix?
+$which_matrix = $ARGV[2];
+
+print "Produce a text file containing the Generator matrix G:\n";
+print "Value of num_cols for G is:",$num_cols,"#\n";
+print "Value of num_rows for G is:",$num_rows,"#\n";
+
+
+
+# The Generator matrix G
+$g="";
+# Print the matrix to standard output
+for($index_rg=0; $index_rg<$num_rows; $index_rg++) {
+	for($index_cg=0; $index_cg<$num_cols; $index_cg++) {
+		if index_cg <= num_rows:
+			if index_cg == index_rg:
+				g = g + "1"
+			else:
+				g = g + "0"
+		else:
+			g = g + random.randint(0, 1)
+	
+	# Add a new line to the 
+	$g = $g + "\n";
+	}
+}
+print g;

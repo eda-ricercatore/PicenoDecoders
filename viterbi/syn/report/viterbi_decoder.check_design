@@ -1,0 +1,21 @@
+Warning: In design 'add_compare_select_3', cell 'U5' does not drive any nets. (LINT-1)
+Warning: In design 'add_compare_select_3', cell 'U12' does not drive any nets. (LINT-1)
+Warning: In design 'pmsm', cell 'U10' does not drive any nets. (LINT-1)
+Warning: In design 'pmsm', cell 'U8' does not drive any nets. (LINT-1)
+Warning: In design 'pmsm', cell 'U6' does not drive any nets. (LINT-1)
+Warning: In design 'pmsm', cell 'U4' does not drive any nets. (LINT-1)
+Warning: In design 'spd', a pin on submodule 'spdu0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'in0' is connected to logic 0. 
+   Pin 'in1' is connected to logic 0. 
+   Pin 'in2' is connected to logic 1. 
+   Pin 'in3' is connected to logic 1. 
+Warning: In design 'spd', the same net is connected to more than one pin on submodule 'spdu0'. (LINT-33)
+   Net '*Logic0*' is connected to pins 'in0', 'in1'. 
+   Net '*Logic1*' is connected to pins 'in2', 'in3'. 
+Warning: In design 'add_compare_select_0', cell 'U5' does not drive any nets. (LINT-1)
+Warning: In design 'add_compare_select_0', cell 'U12' does not drive any nets. (LINT-1)
+Warning: In design 'add_compare_select_1', cell 'U5' does not drive any nets. (LINT-1)
+Warning: In design 'add_compare_select_1', cell 'U12' does not drive any nets. (LINT-1)
+Warning: In design 'add_compare_select_2', cell 'U5' does not drive any nets. (LINT-1)
+Warning: In design 'add_compare_select_2', cell 'U12' does not drive any nets. (LINT-1)
+1

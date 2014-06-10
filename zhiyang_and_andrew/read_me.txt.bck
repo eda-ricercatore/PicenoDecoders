@@ -1,0 +1,22 @@
+read_me.txt
+File to describe the contents of the directory, and what to and how to
+do stuff
+
+
+makefile
+File to compile the Verilog code and to simulate the RTL models so
+that the RTL design can be verified by simulation
+- simulation-based verification
+
+
+
+syn/
+Files and subdirectories for logic synthesis
+
+nanosim/
+Files for Nanosim simulation of the extracted SPICE netlist from
+the synthesized Verilog netlist
+
+
+All design and testbench files are placed here
+

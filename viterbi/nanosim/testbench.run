@@ -1,0 +1,5 @@
+nanosim \
+-nspice testbench.cir \
+-nvec testbench.vec \
+-C testbench.cfg \
+-o result/testbench

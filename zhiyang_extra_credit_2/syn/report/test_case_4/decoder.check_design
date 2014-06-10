@@ -1,0 +1,13 @@
+Warning: In design 'decoder', cell 'S_12' does not drive any nets. (LINT-1)
+Warning: In design 'decoder', cell 'S_13' does not drive any nets. (LINT-1)
+Warning: In design 'decoder', cell 'S_16' does not drive any nets. (LINT-1)
+Warning: In design 'decoder', cell 'S_17' does not drive any nets. (LINT-1)
+Warning: In design 'decoder', cell 'S_20' does not drive any nets. (LINT-1)
+Warning: In design 'decoder', cell 'S_21' does not drive any nets. (LINT-1)
+Warning: In design 'decoder', cell 'S_24' does not drive any nets. (LINT-1)
+Warning: In design 'decoder', cell 'S_25' does not drive any nets. (LINT-1)
+Warning: In design 'decoder', cell 'S_28' does not drive any nets. (LINT-1)
+Warning: In design 'decoder', cell 'S_29' does not drive any nets. (LINT-1)
+Warning: In design 'decoder', cell 'S_32' does not drive any nets. (LINT-1)
+Warning: In design 'decoder', cell 'S_33' does not drive any nets. (LINT-1)
+1

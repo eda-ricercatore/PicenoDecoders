@@ -1,0 +1,32 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : encoder
+Version: Y-2006.06-SP4
+Date   : Tue Dec 18 12:49:01 2007
+****************************************
+
+Operating Conditions: typical   Library: osu018_stdcells
+Wire Load Model Mode: top
+
+  Startpoint: b[1] (input port)
+  Endpoint: c[7] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  b[1] (in)                                0.00       0.00 r
+  U9/Y (XOR2X1)                            0.08       0.08 r
+  c[7] (out)                               0.00       0.08 r
+  data arrival time                                   0.08
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

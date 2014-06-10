@@ -1,0 +1,4 @@
+wm geometry .sigmgr 376x200+640+154
+Mdi:ArrangeIcons
+wm geometry . 1425x841+0+1
+Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisY(3,0) AxisY(4,0)} -range {all all all all all all} -zoomed {0 0 0 0 0 0}

@@ -1,0 +1,59 @@
+# ==========================================================================
+#  University of Southern California
+#  Synopsys PrimeTime setup file for OSU 0.18um Standard Cell Library
+#  Modified by Ehsan Pakbaznia
+# ==========================================================================
+# .synopsys_pt.setup: Initialization File for PrimeTime
+#
+
+
+#
+# Enable stack trace output on fatal.  Not available for all architectures.
+#
+if { $sh_arch == "sparc" || $sh_arch == "sparcOS5" || \
+     $sh_arch == "hp700" || $sh_arch == "hpux10" } {
+  set_unix_variable SYNOPSYS_TRACE ""
+}
+
+#
+# Variable settings
+#
+set sh_new_variable_message true
+
+#
+# Synopsys strongly recommends that you uncomment the following command
+# in order to set sh_command_abbrev_mode to the value "Command-Line-Only".
+# Command abbreviation is intended as an interactive convenience.  Using
+# abbreviations in scripts can cause commands to fail in subsequent releases.
+# 
+#set sh_command_abbrev_mode "Command-Line-Only"
+ 
+#
+# Some useful aliases
+#
+alias list_commands		help
+alias report_constraints	report_constraint
+alias report_clocks		report_clock
+
+#
+# The alias for get_clock was added when get_clock_network_objects
+# was introduced, as it conflicts with get_clocks (and get_clock is a
+# typical abbreviation for get_clocks)
+#
+alias get_clock get_clocks
+
+
+#
+#
+# The alias of q to quit is commented out.  Remove the comment 
+# character if you want this alias.  Some users find that having 
+# this particular alias causes problems when mixed with page-mode
+# for reports - an accidental repeated 'q' not only cancels the
+# output but exits the tool.
+#
+#alias q quit
+############################
+set search_path {. ./designs }
+set link_path {* /auto/home-scf-06/ee577/design_pdk/osu_stdcells/lib/tsmc018/lib/osu018_stdcells.db }
+
+

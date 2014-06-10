@@ -1,0 +1,35 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : ham_15_11_encoder
+Version: Y-2006.06-SP4
+Date   : Fri Oct 26 00:06:23 2007
+****************************************
+
+Operating Conditions: typical   Library: osu018_stdcells
+Wire Load Model Mode: top
+
+  Startpoint: d[6] (input port)
+  Endpoint: c[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  d[6] (in)                                0.00       0.00 r
+  U76/Y (XOR2X1)                           0.20       0.20 r
+  U75/Y (XNOR2X1)                          0.22       0.42 r
+  U74/Y (XOR2X1)                           0.16       0.58 r
+  U73/Y (XOR2X1)                           0.10       0.67 f
+  c[0] (out)                               0.00       0.67 f
+  data arrival time                                   0.67
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

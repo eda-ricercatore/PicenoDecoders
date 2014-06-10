@@ -1,0 +1,137 @@
+; --------------------------------------------------------
+;|                                                        |
+;|               NanoSim Version Y-2006.06                |
+;|                 SN: P20060518-SunOS_5                  |
+;|              Machine Name: aludra.usc.edu              |
+;| Copyright (c) 2006 Synopsys Inc., All Rights Reserved. |
+;|                                                        |
+; --------------------------------------------------------
+;
+;Built by nsmgr in " 20060518_sparcOS5_p4_y2006.06_ns " on Thu May 18 22:17:23 PDT 2006
+; Wed Nov  7 11:36:24 2007
+; 
+
+; The following nodes were unsettled during DC initialization.
+; They were scheduled to be evaluated during transient analysis.
+
+set_node_ic xacs2.xu30.s_b 0
+set_node_ic xacs2.xu30.net25 1.79996
+set_node_ic xpath_metric_sm.n174 0
+set_node_ic xpath_metric_sm.xu76.net35 1.79999
+set_node_ic xpath_metric_sm.xu75.net5 1.79999
+set_node_ic xpath_metric_sm.xnpm3norm_reg_3_.net35 1.8
+set_node_ic xpath_metric_sm.xu58.net5 1.79999
+set_node_ic xpath_metric_sm.pm3254_3_ 1.8
+set_node_ic xpath_metric_sm.xpm3_reg_3_.net071 0
+set_node_ic xpath_metric_sm.xu217.net10 0.000222188
+set_node_ic xpath_metric_sm.xu213.net18 1.8
+set_node_ic xpath_metric_sm.xu78.net18 1.79998
+set_node_ic xpath_metric_sm.xu82.b_b 0
+set_node_ic xpath_metric_sm.xu82.net35 1.79994
+set_node_ic xpath_metric_sm.xu81.net5 1.79998
+set_node_ic xpath_metric_sm.xnpm3norm_reg_2_.net35 1.8
+set_node_ic xpath_metric_sm.xu59.net5 1.79999
+set_node_ic xpath_metric_sm.pm3254_2_ 1.8
+set_node_ic xpath_metric_sm.xu262.net18 1.79998
+set_node_ic xpath_metric_sm.xu255.net10 5.30692e-05
+set_node_ic xpath_metric_sm.xu260.net10 7.9664e-05
+set_node_ic xpath_metric_sm.n182 0
+set_node_ic xpath_metric_sm.xu244.net18 0.374957
+set_node_ic xpath_metric_sm.xu250.net10 2.00842e-05
+set_node_ic xpath_metric_sm.n23 0
+set_node_ic xpath_metric_sm.xu87.net18 1.79998
+set_node_ic xpath_metric_sm.xu82.a_b 0
+set_node_ic xpath_metric_sm.xu93.net35 1.79999
+set_node_ic xpath_metric_sm.xu91.net5 1.8
+set_node_ic xpath_metric_sm.xpm3_reg_1_.net071 1.8
+set_node_ic xpath_metric_sm.xu196.net013 1.75983e-05
+set_node_ic xpath_metric_sm.n59 1.8
+set_node_ic xpath_metric_sm.xu123.net5 0.374619
+set_node_ic xpath_metric_sm.xu228.net10 5.30312e-05
+set_node_ic xpath_metric_sm.n154 0
+set_node_ic xpath_metric_sm.xu218.net013 2.94824e-05
+set_node_ic xpath_metric_sm.xu222.net10 3.95932e-06
+set_node_ic xpath_metric_sm.xu225.net10 0
+set_node_ic xpath_metric_sm.xu224.net18 0.374956
+set_node_ic xpath_metric_sm.n30 1.8
+set_node_ic xpath_metric_sm.xu95.net5 0.374619
+set_node_ic xpath_metric_sm.xpm3_reg_0_.net071 1.8
+set_node_ic xpath_metric_sm.xu143.net18 1.79996
+set_node_ic xpath_metric_sm.xu140.net35 1.79997
+set_node_ic xpath_metric_sm.xu139.net5 1.79999
+set_node_ic xpath_metric_sm.pm1240_2_ 0
+set_node_ic xpath_metric_sm.xpm1_reg_2_.net071 1.8
+set_node_ic xacs2.xu29.net25 1.79995
+set_node_ic xpath_metric_sm.xu160.net25 0.000135398
+set_node_ic xpath_metric_sm.pm1240_3_ 1.8
+set_node_ic xpath_metric_sm.xpm1_reg_3_.net071 0
+set_node_ic xpath_metric_sm.xu174.net35 0
+set_node_ic xpath_metric_sm.npm0norm_1 0
+set_node_ic xpath_metric_sm.pm0233_1_ 1.8
+set_node_ic xpath_metric_sm.xpm0_reg_1_.net071 0
+set_node_ic xpath_metric_sm.xu166.net5 0.374618
+set_node_ic xpath_metric_sm.xnpm0norm_reg_2_.net35 1.8
+set_node_ic xpath_metric_sm.xu71.net15 1.30618e-06
+set_node_ic xpath_metric_sm.xpm0_reg_2_.net50 1.8
+set_node_ic xpath_metric_sm.xu241.net5 1.8
+set_node_ic xpath_metric_sm.xu156.net25 0.00825002
+set_node_ic xpath_metric_sm.xu149.b_b 0
+set_node_ic xpath_metric_sm.xu146.net35 0
+set_node_ic xpath_metric_sm.xu145.net5 0
+set_node_ic xpath_metric_sm.npm1norm_1 1.8
+set_node_ic xpath_metric_sm.xu68.net5 1.79999
+set_node_ic xpath_metric_sm.pm1240_1_ 1.8
+set_node_ic xpath_metric_sm.xu188.net013 0
+set_node_ic xpath_metric_sm.xnpm1norm_reg_0_.net35 1.8
+set_node_ic xpath_metric_sm.xu69.net5 1.79999
+set_node_ic xpath_metric_sm.pm1240_0_ 0
+set_node_ic xpath_metric_sm.xpm1_reg_0_.net071 1.8
+set_node_ic xacs2.xu31.net25 1.79995
+set_node_ic xpath_metric_sm.n136 1.79988
+set_node_ic xpath_metric_sm.xu204.net013 1.79987
+set_node_ic xpath_metric_sm.xu177.net25 1.82483e-05
+set_node_ic xpath_metric_sm.xu176.net25 0.000133071
+set_node_ic xpath_metric_sm.xu162.net18 1.8
+set_node_ic xpath_metric_sm.xu158.net35 1.8
+set_node_ic xpath_metric_sm.npm0norm_3 0
+set_node_ic xacs2.xu32.net25 1.79995
+set_node_ic xpath_metric_sm.xu118.net5 1.8
+set_node_ic xpath_metric_sm.xpm2_reg_1_.net50 0
+set_node_ic xpath_metric_sm.xpm2_reg_1_.net56 0
+set_node_ic xpath_metric_sm.xu104.net18 1.8
+set_node_ic xpath_metric_sm.xu101.net35 1.8
+set_node_ic xpath_metric_sm.xu100.net5 1.79999
+set_node_ic xpath_metric_sm.npm2norm_3 1.8
+set_node_ic xpath_metric_sm.xu62.net5 1.79999
+set_node_ic xpath_metric_sm.pm2247_3_ 1.8
+set_node_ic xpath_metric_sm.xpm2_reg_3_.net071 0
+set_node_ic xpath_metric_sm.xpm2_reg_3_.net56 0
+set_node_ic xpath_metric_sm.xu108.b_b 0
+set_node_ic xpath_metric_sm.xu108.net35 1.8
+set_node_ic xpath_metric_sm.xu107.net5 1.79999
+set_node_ic xpath_metric_sm.xnpm2norm_reg_2_.net35 1.8
+set_node_ic xpath_metric_sm.xu63.net5 1.79999
+set_node_ic xpath_metric_sm.pm2247_2_ 1.8
+set_node_ic xpath_metric_sm.xu172.net25 0.000594513
+set_node_ic xpath_metric_sm.xu171.net25 9.52425e-07
+set_node_ic xpath_metric_sm.xu144.net25 0.00824971
+set_node_ic xpath_metric_sm.xu135.net18 1.8
+set_node_ic xpath_metric_sm.xu186.net25 5.84193e-09
+set_node_ic xpath_metric_sm.n108 1.79988
+set_node_ic xpath_metric_sm.xu170.net18 1.8
+set_node_ic xpath_metric_sm.xu183.net18 1.79999
+set_node_ic xpath_metric_sm.n115 1.8
+set_node_ic xpath_metric_sm.xu158.a_b 0
+set_node_ic xpath_metric_sm.xu174.b_b 1.8
+set_node_ic xpath_metric_sm.xu148.net25 8.55445e-06
+set_node_ic xpath_metric_sm.xu146.b_b 1.8
+set_node_ic xpath_metric_sm.xu151.net5 1.79999
+set_node_ic xpath_metric_sm.xu266.net5 0
+set_node_ic xpath_metric_sm.xu149.a_b 1.8
+set_node_ic xpath_metric_sm.xu186.s_b 0
+set_node_ic xpath_metric_sm.xu160.s_b 0
+set_node_ic xpath_metric_sm.xu189.net5 0
+set_node_ic xpath_metric_sm.xu93.a_b 0
+set_node_ic xacs2.xu29.s_b 0
+set_node_ic xacs2.xu32.s_b 0
+set_node_ic xacs2.xu31.s_b 0

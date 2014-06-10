@@ -1,0 +1,11 @@
+Warning: In design 'decoder', cell 'S_20' does not drive any nets. (LINT-1)
+Warning: In design 'decoder', cell 'S_21' does not drive any nets. (LINT-1)
+Warning: In design 'decoder', cell 'S_24' does not drive any nets. (LINT-1)
+Warning: In design 'decoder', cell 'S_25' does not drive any nets. (LINT-1)
+Warning: In design 'decoder', cell 'S_28' does not drive any nets. (LINT-1)
+Warning: In design 'decoder', cell 'S_29' does not drive any nets. (LINT-1)
+Warning: In design 'decoder', cell 'S_32' does not drive any nets. (LINT-1)
+Warning: In design 'decoder', cell 'S_33' does not drive any nets. (LINT-1)
+Warning: In design 'decoder', input port 'cx[6]' is connected directly to output port 'd[6]'. (LINT-29)
+Warning: In design 'decoder', input port 'cx[4]' is connected directly to output port 'd[4]'. (LINT-29)
+1

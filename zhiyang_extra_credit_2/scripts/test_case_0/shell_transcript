@@ -1,0 +1,176 @@
+Script started on Mon 17 Dec 2007 09:41:55 PM PST
+1700@license.usc.edu:1800@license29.usc.edu:1900@license29.usc.edu:1700@license29.usc.edu
+Go Get Bangalored>make repeat_cols
+== Get the current date and time, including the
+== time zone
+date
+Mon Dec 17 21:42:34 PST 2007
+== Display the input text file
+== with repeated columns of the Identity matrix I
+more repeated_cols_ip.txt
+1 0 1 0 1 0 1 1 0 1 0 0 0 0 0 0 0 1 0 1 0 0
+0 0 0 1 0 0 0 0 0 1 0 1 0 1 0 1 0 0 1 1 0 0
+0 0 0 1 0 0 0 1 1 1 1 1 1 1 0 0 1 0 1 0 0 0
+1 0 1 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 1 0 0
+0 0 0 1 0 0 0 0 0 0 1 0 1 0 1 0 1 0 1 0 1 0
+1 0 1 0 1 0 1 0 0 0 1 0 1 0 0 0 0 0 0 1 0 1
+1 1 0 1 0 0 1 0 0 0 1 0 1 1 0 0 0 0 0 1 0 0
+1 0 1 0 1 0 1 0 0 0 1 0 1 0 0 0 1 0 1 0 0 0
+== Produce the G and H matrices, and the Verilog
+== models for this incorrect input matrix with
+== repeated columns of I
+parse.pl -g repeated_cols_ip.txt
+=======================================================
+Reading the input file:
+To produce Parity-check and Generator matrices
+=======================================================
+
+CURRENT LINE IS++++1010101101000000010100QWW
+CURRENT LINE IS++++0001000001010101001100QWW
+CURRENT LINE IS++++0001000111111100101000QWW
+CURRENT LINE IS++++1010000000010100000100QWW
+CURRENT LINE IS++++0001000000101010101010QWW
+CURRENT LINE IS++++1010101000101000000101QWW
+CURRENT LINE IS++++1101001000101100000100QWW
+CURRENT LINE IS++++1010101000101000101000QWW
+========================ip_cols=21#&#
+========================ip_rows=8#&#
+Process the G or H matrix
+				=========Transforming the matrix G
+Number of ONEs in each column
+5 1 4 4 3 0 4 2 1 3 5 3 5 4 1 1 3 1 4 5 1 1 
+Row of most recently found element of ONE in this column
+7 6 7 6 7 -1 7 2 2 2 7 3 7 6 4 1 7 0 7 6 4 5 
+Col of I with ONE in row 4 is repeated
+The repeated row is:::4:::
+== Terminate Process. Repeated Columns of I
+*** Error code 255
+make: Fatal error: Command failed for target `repeat_cols'
+Go Get Bangalored>
+Go Get Bangalored>
+Go Get Bangalored>
+Go Get Bangalored>
+Go Get Bangalored>
+Go Get Bangalored>
+Go Get Bangalored>
+Go Get Bangalored>
+Go Get Bangalored>
+Go Get Bangalored>
+Go Get Bangalored>
+Go Get Bangalored>
+Go Get Bangalored>
+Go Get Bangalored>
+Go Get Bangalored>
+Go Get Bangalored>
+Go Get Bangalored>
+Go Get Bangalored>make insuf_cols
+== Get the current date and time, including the
+== time zone
+date
+Mon Dec 17 21:42:56 PST 2007
+== Display the input text file
+== with insufficient number of columns to form
+== the Identity matrix I
+more repeated_cols_ip.txt
+1 0 1 0 1 0 1 1 0 1 0 0 0 0 0 0 0 1 0 1 0 0
+0 0 0 1 0 0 0 0 0 1 0 1 0 1 0 1 0 0 1 1 0 0
+0 0 0 1 0 0 0 1 1 1 1 1 1 1 0 0 1 0 1 0 0 0
+1 0 1 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 1 0 0
+0 0 0 1 0 0 0 0 0 0 1 0 1 0 1 0 1 0 1 0 1 0
+1 0 1 0 1 0 1 0 0 0 1 0 1 0 0 0 0 0 0 1 0 1
+1 1 0 1 0 0 1 0 0 0 1 0 1 1 0 0 0 0 0 1 0 0
+1 0 1 0 1 0 1 0 0 0 1 0 1 0 0 0 1 0 1 0 0 0
+== Produce the G and H matrices, and the Verilog
+== models for this incorrect input matrix with
+== insufficient number of columns to form I
+parse.pl -g insuf_cols.txt
+=======================================================
+Reading the input file:
+To produce Parity-check and Generator matrices
+=======================================================
+
+CURRENT LINE IS++++100000011010QWW
+CURRENT LINE IS++++010000000100QWW
+CURRENT LINE IS++++000000000010QWW
+CURRENT LINE IS++++000100011011QWW
+CURRENT LINE IS++++000010001110QWW
+CURRENT LINE IS++++000001001111QWW
+CURRENT LINE IS++++000000100000QWW
+========================ip_cols=11#&#
+========================ip_rows=7#&#
+Process the G or H matrix
+				=========Transforming the matrix G
+Number of ONEs in each column
+1 1 0 1 1 1 1 2 4 3 5 2 
+Row of most recently found element of ONE in this column
+0 1 -1 3 4 5 6 3 5 5 5 5 
+=== ERROR ===
+There's an insufficient amount of columns to form I
+Current column:2: is not found
+*** Error code 255
+make: Fatal error: Command failed for target `insuf_cols'
+Go Get Bangalored>
+Go Get Bangalored>
+Go Get Bangalored>
+Go Get Bangalored>
+Go Get Bangalored>
+Go Get Bangalored>
+Go Get Bangalored>
+Go Get Bangalored>
+Go Get Bangalored>
+Go Get Bangalored>
+Go Get Bangalored>
+Go Get Bangalored>
+Go Get Bangalored>
+Go Get Bangalored>
+Go Get Bangalored>
+Go Get Bangalored>
+Go Get Bangalored>make insuf_cols2
+== Get the current date and time, including the
+== time zone
+date
+Mon Dec 17 21:43:10 PST 2007
+== Display the input text file
+== with insufficient number of columns to form
+== the Identity matrix I
+== This matrix also has jumbled up columns
+more repeated_cols_ip.txt
+1 0 1 0 1 0 1 1 0 1 0 0 0 0 0 0 0 1 0 1 0 0
+0 0 0 1 0 0 0 0 0 1 0 1 0 1 0 1 0 0 1 1 0 0
+0 0 0 1 0 0 0 1 1 1 1 1 1 1 0 0 1 0 1 0 0 0
+1 0 1 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 1 0 0
+0 0 0 1 0 0 0 0 0 0 1 0 1 0 1 0 1 0 1 0 1 0
+1 0 1 0 1 0 1 0 0 0 1 0 1 0 0 0 0 0 0 1 0 1
+1 1 0 1 0 0 1 0 0 0 1 0 1 1 0 0 0 0 0 1 0 0
+1 0 1 0 1 0 1 0 0 0 1 0 1 0 0 0 1 0 1 0 0 0
+== Produce the G and H matrices, and the Verilog
+== models for this incorrect input matrix with
+== insufficient number of columns to form I
+parse.pl -h insuf_cols2.txt
+=======================================================
+Reading the input file:
+To produce Parity-check and Generator matrices
+=======================================================
+
+CURRENT LINE IS++++000110011010QWW
+CURRENT LINE IS++++010001000000QWW
+CURRENT LINE IS++++001100000000QWW
+CURRENT LINE IS++++100100011001QWW
+CURRENT LINE IS++++010100001000QWW
+CURRENT LINE IS++++010100001101QWW
+CURRENT LINE IS++++000010100000QWW
+========================ip_cols=11#&#
+========================ip_rows=7#&#
+Process the G or H matrix
+				=========Transforming the matrix G
+Number of ONEs in each column
+1 3 1 5 2 1 1 2 4 1 1 2 
+Row of most recently found element of ONE in this column
+3 5 2 5 6 1 6 3 5 5 0 5 
+=== ERROR ===
+There's an insufficient amount of columns to form I
+Current column:4: is not found
+*** Error code 255
+make: Fatal error: Command failed for target `insuf_cols2'
+Go Get Bangalored>exit
+script done on Mon 17 Dec 2007 09:43:24 PM PST

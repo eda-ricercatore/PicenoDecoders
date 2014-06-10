@@ -1,0 +1,24 @@
+ 
+****************************************
+Report : area
+Design : encoder
+Version: Y-2006.06-SP4
+Date   : Tue Dec 18 12:49:01 2007
+****************************************
+
+Library(s) Used:
+
+    osu018_stdcells (File: /auto/home-scf-06/ee577/design_pdk/osu_stdcells/lib/tsmc018/lib/osu018_stdcells.db)
+
+Number of ports:               12
+Number of nets:                 7
+Number of cells:                3
+Number of references:           1
+
+Combinational area:        168.000000
+Noncombinational area:       0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:           168.000000
+Total area:                 undefined
+1

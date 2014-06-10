@@ -1,0 +1,51 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : ham_decoder
+Version: Y-2006.06-SP4
+Date   : Fri Oct 26 00:11:13 2007
+****************************************
+
+Operating Conditions: typical   Library: osu018_stdcells
+Wire Load Model Mode: top
+
+  Startpoint: cc[14] (input port)
+  Endpoint: qq[10] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  cc[14] (in)                              0.00       0.00 r
+  hdec/c[14] (ham_15_11_decoder)           0.00       0.00 r
+  hdec/U125/Y (XOR2X1)                     0.20       0.20 r
+  hdec/U114/Y (XNOR2X1)                    0.22       0.42 r
+  hdec/U113/Y (XNOR2X1)                    0.16       0.58 r
+  hdec/U111/Y (XOR2X1)                     0.18       0.76 f
+  hdec/U110/Y (NAND2X1)                    0.15       0.91 r
+  hdec/U109/Y (XOR2X1)                     0.14       1.05 r
+  hdec/U107/Y (XOR2X1)                     0.13       1.18 r
+  hdec/U103/Y (XOR2X1)                     0.18       1.36 r
+  hdec/U102/Y (INVX1)                      0.17       1.53 f
+  hdec/U100/Y (NAND2X1)                    0.18       1.71 r
+  hdec/U99/Y (INVX1)                       0.13       1.84 f
+  hdec/U84/Y (NAND2X1)                     0.13       1.97 r
+  hdec/U83/Y (INVX1)                       0.06       2.03 f
+  hdec/U82/Y (AOI22X1)                     0.08       2.11 r
+  hdec/U81/Y (OAI21X1)                     0.06       2.17 f
+  hdec/U75/Y (MUX2X1)                      0.08       2.25 r
+  hdec/U74/Y (OAI21X1)                     0.25       2.50 f
+  hdec/U67/Y (MUX2X1)                      0.09       2.60 r
+  hdec/q[10] (ham_15_11_decoder)           0.00       2.60 r
+  qq[10] (out)                             0.00       2.60 r
+  data arrival time                                   2.60
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

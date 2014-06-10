@@ -1,0 +1,13 @@
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect AxisY(4,0) add
+# AxisY(4,0)
+wm geometry .sigmgr 376x200+640+154
+Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisY(3,0) AxisY(4,0) AxisY(5,0)} -range {all all all all all all all} -zoomed {0 0 0 0 0 0 0}
+Mdi:ArrangeIcons
+Graph:DSel
+Graph:DSel
+Graph itemselect Signal1 add
+# Signal1
+Graph delsignal selected
+Graph:SaveGraph Graph0 /home/scf-08/mattheis/wd/.scopecfg_data/Graph0 0

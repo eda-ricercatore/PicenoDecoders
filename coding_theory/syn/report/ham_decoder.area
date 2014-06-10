@@ -1,0 +1,24 @@
+ 
+****************************************
+Report : area
+Design : ham_decoder
+Version: Y-2006.06-SP4
+Date   : Fri Oct 26 00:11:13 2007
+****************************************
+
+Library(s) Used:
+
+    osu018_stdcells (File: /auto/home-scf-06/ee577/design_pdk/osu_stdcells/lib/tsmc018/lib/osu018_stdcells.db)
+
+Number of ports:               26
+Number of nets:                26
+Number of cells:                1
+Number of references:           1
+
+Combinational area:       3041.000000
+Noncombinational area:       0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:          3041.000000
+Total area:                 undefined
+1

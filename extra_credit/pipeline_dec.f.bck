@@ -1,0 +1,3 @@
+-v pipeline_dec.v
++ncaccess+rwc
+pipeline_dec.v

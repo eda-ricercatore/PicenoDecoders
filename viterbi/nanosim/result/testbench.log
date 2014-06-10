@@ -1,0 +1,224 @@
+ --------------------------------------------------------
+|                                                        |
+|               NanoSim Version Y-2006.06                |
+|                 SN: P20060518-SunOS_5                  |
+|            Machine Name: sal-sun063.usc.edu            |
+| Copyright (c) 2006 Synopsys Inc., All Rights Reserved. |
+|                                                        |
+ --------------------------------------------------------
+
+Built by nsmgr in " 20060518_sparcOS5_p4_y2006.06_ns " on Thu May 18 22:17:23 PDT 2006
+Tue Nov 20 15:33:58 2007
+
+Command line options:  -nspice testbench.cir -nvec testbench.vec -C testbench.cfg -o result/testbench
+
+
+The 32-bit version of the simulator is running.
+
+
+Initializing system messages took 0.070 s
+
+Installing interactive/configuration commands ... 
+Installing commands took 0.120 s
+
+
+Start netlist compilation at Tue Nov 20 15:34:00 2007
+
+Compiling "testbench.cir" (SPICE)
+Compiling "tsmc_018.spice" (SPICE)
+Compiling "testbench.spice" (SPICE)
+Compiling "/auto/home-scf-06/ee577/design_pdk/ncsu-cdk-1.5.1/models/hspice/public/publicModel/tsmc20P" (SPICE)
+Compiling "/auto/home-scf-06/ee577/design_pdk/ncsu-cdk-1.5.1/models/hspice/public/publicModel/tsmc20N" (SPICE)
+Compiling "testbench.vec" (VECTOR)
+
+
+
+Parsing netlist finished in 1 seconds
+
+Circuit temperature from netlist                  :       25.000
+
+
+Netlist compilation will be case insensitive.
+All letters will be converted to lower case.
+Building instance tree finished in 1 seconds
+
+Finish netlist compilation at Tue Nov 20 15:34:02 2007
+
+Netlist compilation took 0.140 s
+NOTICE:Techfile Voltage (*nanosim tech="voltage") set to  1.8V ... 
+
+This simulation uses HSPICE models
+
+WARNING:NanoSim:0x2110426e:Hspice vector read: invalid command, ignored, in "testbench.vec:1". 
+WARNING:NanoSim:0x2110426e:Hspice vector read: invalid command, ignored, in "testbench.vec:2". 
+WARNING:NanoSim:0x2110426e:Hspice vector read: invalid command, ignored, in "testbench.vec:4". 
+WARNING:NanoSim:0x2110426e:Hspice vector read: invalid command, ignored, in "testbench.vec:6". 
+Building node/element arrays took 0.680 s
+
+Reading configuration files ...
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Andrew Mattheisen Amattheisen@yahoo.com
+; Zhiyang Ong Zhiyang@ieee.org
+; General Configuration Settings
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+; set simulation accuracy switches here - Default is (2,2,2)
+set_sim_eou sim=2 model=2 net=2
+
+; change the unit used for inputs and outputs
+set_sim_unit output time=1ns cap=1fF current=1mA length=1um
+
+; set output format for the waveform output file - "fsdb" for CosmosScope
+; without this command, nanosim will generate .out file
+set_print_format for=fsdb
+
+; set the specified node to vdd/gnd for the entire simulation
+set_node_vdd VDD!
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; User-specific Settings
+; => modify the following lines as you need
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+; print a node's voltage waveform to the output file
+; also can access internal nodes
+; e.g. print_node_v XI0.XI9.NET037
+
+;inputs in top cell
+print_node_v CLK
+print_node_v RESET
+print_node_v CX_0
+print_node_v CX_1
+
+
+;outputs
+print_node_v D
+
+
+   
+
+
+
+; print the logic values of specified nodes to the output file
+print_node_logic *
+Reading configuration files took 0.000000 s
+
+
+
+WARNING:NanoSim:0x21108fb7:Pulse source vclk had rise/fall time smaller than simulation time resolution (tres). rise/fall time adjusted to tres. 
+WARNING:NanoSim:0x2110925a:There are 1 DANGLING nodes. Please view the file result/testbench.dng for the node names 
+
+# of CMOS elements                                        :         5410
+# of independent sources                                  :            1
+# of stimulus elements                                    :            1
+# of elements                                             :         5412
+# of used elements                                        :         5412
+# of nodes                                                :         3021
+# of subckt                                               :           39
+# of top-level instances                                  :            9
+
+
+Circuit partitioning ...
+
+Among 1261 stages, there are: 
+        1261 pwl stages 
+           0 grouped pwl stages
+           0 analog stages 
+           0 NR stages 
+           0 grouped analog stages
+           0 rc stages 
+           0 ud stages 
+           0 ADFMI functional model stages
+           5 nodes in the largest pwl stage
+           0 nodes in the largest digital stage
+
+        1261 stages (1261 pwl/analog stages) with 0-9 nodes
+
+
+Among 3021 nodes, there are: 
+        3021 pwl nodes
+           0 analog (accurate) nodes
+           0 rc nodes
+           0 ud nodes
+
+           0 cut nodes 
+           0 mem_cut nodes 
+           0 no_clamp nodes 
+        3012 nodes in stages
+           5 voltage source nodes
+           4 constant nodes
+           0 NR nodes
+
+Among 5412 elements, there are: 
+        5410 elements in stages
+        5410 pwl elements 
+           0 synchronous elements 
+           0 SMS elements 
+           0 analog (accurate) elements
+           0 rc elements 
+           0 ud elements 
+           0 ADFMI functional model elements 
+           0 VERILOGA model elements 
+           0 behavioral model elements 
+
+           0 mna elements
+           0 NR elements
+           0 mos transistors identified as keepers
+        4166 mos transistors need Subthreshold current
+           0 keepers removed
+           0 keepers reduced
+
+
+Circuit partitioning took 0.190 s
+Constructing matrix ...
+Matrix ordering and construction took 0.010 s
+
+
+After reading configuration file(s), 3026 signals are identified to be printed:
+        3021 logic signals
+           5 voltage signals
+
+Statistics of memory used for signal printing:
+      192032 bytes allocated in total, including:
+            192032 bytes allocated for node current/voltage/logic signals
+Levelizing stages ...
+Levelizing stages took 0.000 s
+DC initialization ...
+WARNING:NanoSim:0x2110e4b1:There are 1 DANGLING nodes which have been set to 0.0 volt by the simulator before DC initialization. Please view the file result/testbench.dcu for the node names. 
+
+Finishing initialization (level 0 -- 70)
+0 dynamic stages assigned in DC Initialization
+
+Number of residual dc events scheduled          : 121
+Number of ic nodes scheduled                    : 1
+DC initialization took 0.220 s
+
+Simulation begins in pwl mode ...
+Simulation ends at 1254.000 ns
+
+Simulation took 130.620 s
+
+Simulation time resolution                      : 1.000e-02 ns
+Print time resolution                           : 1.000e-02 ns
+Number of PWL matrix solutions                  : 3808515
+Number of PWL MOS model lookups                 : 16043896
+Number of time steps                            : 3800099
+Number of iterations                            : 0
+Number of rejected time steps                   : 21998
+
+Global simulation parameters used:
+
+SPD            0.18V     ASPD           0.09V
+SIM_DESV       0.18V     SIM_AESV       0.09V
+VDS_MIN  0.000240957V     AVDS_MIN      1e-08V
+SSC (steady state current)      0.0001mA
+SUBI (subthreshold current)      0.001mA
+DC CURRENT                       0.001mA
+
+	     154.0 real	     132.5 user	       1.1 sys
+
+Signal data is saved in result/testbench.fsdb
+
+No errors reported in the .err file (result/testbench.err)
+

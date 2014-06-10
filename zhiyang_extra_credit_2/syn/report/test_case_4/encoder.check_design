@@ -1,0 +1,9 @@
+Warning: In design 'encoder', input port 'b[2]' is connected directly to output port 'c[2]'. (LINT-29)
+Warning: In design 'encoder', input port 'b[2]' is connected directly to output port 'c[3]'. (LINT-29)
+Warning: In design 'encoder', input port 'b[1]' is connected directly to output port 'c[1]'. (LINT-29)
+Warning: In design 'encoder', input port 'b[0]' is connected directly to output port 'c[0]'. (LINT-29)
+Warning: In design 'encoder', input port 'b[0]' is connected directly to output port 'c[8]'. (LINT-29)
+Warning: In design 'encoder', output port 'c[8]' is connected directly to output port 'c[0]'. (LINT-31)
+Warning: In design 'encoder', output port 'c[6]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'encoder', output port 'c[3]' is connected directly to output port 'c[2]'. (LINT-31)
+1

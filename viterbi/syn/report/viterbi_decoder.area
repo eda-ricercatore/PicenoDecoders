@@ -1,0 +1,24 @@
+ 
+****************************************
+Report : area
+Design : viterbi_decoder
+Version: Y-2006.06-SP4
+Date   : Tue Nov 20 17:11:35 2007
+****************************************
+
+Library(s) Used:
+
+    osu018_stdcells (File: /auto/home-scf-06/ee577/design_pdk/osu_stdcells/lib/tsmc018/lib/osu018_stdcells.db)
+
+Number of ports:                5
+Number of nets:                57
+Number of cells:                7
+Number of references:           7
+
+Combinational area:       18159.000000
+Noncombinational area:    7296.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:          25455.000000
+Total area:                 undefined
+1

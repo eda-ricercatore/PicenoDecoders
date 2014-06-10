@@ -1,0 +1,36 @@
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : viterbi_decoder
+Version: Y-2006.06-SP4
+Date   : Wed Nov  7 09:25:05 2007
+****************************************
+
+
+Library(s) Used:
+
+    osu018_stdcells (File: /auto/home-scf-06/ee577/design_pdk/osu_stdcells/lib/tsmc018/lib/osu018_stdcells.db)
+
+
+Operating Conditions: typical   Library: osu018_stdcells
+Wire Load Model Mode: top
+
+
+Global Operating Voltage = 1.8  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+  Cell Internal Power  =   7.9150 mW   (52%)
+  Net Switching Power  =   7.3583 mW   (48%)
+                         ---------
+Total Dynamic Power    =  15.2733 mW  (100%)
+
+Cell Leakage Power     =  47.5251 nW
+
+1

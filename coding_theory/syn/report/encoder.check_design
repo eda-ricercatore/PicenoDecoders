@@ -1,0 +1,12 @@
+Warning: In design 'ham_15_11_encoder', input port 'd[10]' is connected directly to output port 'c[14]'. (LINT-29)
+Warning: In design 'ham_15_11_encoder', input port 'd[9]' is connected directly to output port 'c[13]'. (LINT-29)
+Warning: In design 'ham_15_11_encoder', input port 'd[8]' is connected directly to output port 'c[12]'. (LINT-29)
+Warning: In design 'ham_15_11_encoder', input port 'd[7]' is connected directly to output port 'c[11]'. (LINT-29)
+Warning: In design 'ham_15_11_encoder', input port 'd[6]' is connected directly to output port 'c[10]'. (LINT-29)
+Warning: In design 'ham_15_11_encoder', input port 'd[5]' is connected directly to output port 'c[9]'. (LINT-29)
+Warning: In design 'ham_15_11_encoder', input port 'd[4]' is connected directly to output port 'c[8]'. (LINT-29)
+Warning: In design 'ham_15_11_encoder', input port 'd[3]' is connected directly to output port 'c[6]'. (LINT-29)
+Warning: In design 'ham_15_11_encoder', input port 'd[2]' is connected directly to output port 'c[5]'. (LINT-29)
+Warning: In design 'ham_15_11_encoder', input port 'd[1]' is connected directly to output port 'c[4]'. (LINT-29)
+Warning: In design 'ham_15_11_encoder', input port 'd[0]' is connected directly to output port 'c[2]'. (LINT-29)
+1

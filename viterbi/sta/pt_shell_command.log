@@ -1,0 +1,237 @@
+#@ # 
+#@ # Running pt_shell Version Z-2006.12-SP1 for sparcOS5 -- Jan 18, 2007
+#@ # Date:   Tue Nov 20 16:14:46 2007
+#@ # Run by: zhiyango@sal-sun063.usc.edu
+#@ 
+
+source /auto/synopsys/2006.12/admin/setup/.synopsys_pt.setup
+#@ #
+#@ # .synopsys_pt.setup: Initialization File for PrimeTime
+#@ #
+#@ 
+#@ 
+#@ #
+#@ # Enable stack trace output on fatal.  Not available for all architectures.
+#@ #
+#@ if { $sh_arch == "sparcOS5" || $sh_arch == "hpux10" ||      $sh_arch == "hp32" || $sh_arch == "linux" } {
+#@   set_unix_variable SYNOPSYS_TRACE ""
+#@ }
+#@ 
+#@ #
+#@ # Variable settings
+#@ #
+#@ 
+#@ #
+#@ # Synopsys strongly recommends that you use new variable message
+#@ # tracing for debugging purposes only.
+#@ #
+#@ set sh_new_variable_message true
+#@ 
+#@ #
+#@ # Synopsys strongly recommends that you uncomment the following command
+#@ # in order to set sh_command_abbrev_mode to the value "Command-Line-Only".
+#@ # Command abbreviation is intended as an interactive convenience.  Using
+#@ # abbreviations in scripts can cause commands to fail in subsequent releases.
+#@ # 
+#@ #set sh_command_abbrev_mode "Command-Line-Only"
+#@ 
+#@ #
+#@ # Some useful aliases
+#@ #
+#@ alias list_commands		help
+#@ alias report_constraints	report_constraint
+#@ alias report_clocks		report_clock
+#@ 
+#@ #
+#@ # The alias for get_clock was added when get_clock_network_objects
+#@ # was introduced, as it conflicts with get_clocks (and get_clock is a
+#@ # typical abbreviation for get_clocks)
+#@ #
+#@ alias get_clock get_clocks
+#@ 
+#@ 
+#@ #
+#@ #
+#@ # The alias of q to quit is commented out.  Remove the comment 
+#@ # character if you want this alias.  Some users find that having 
+#@ # this particular alias causes problems when mixed with page-mode
+#@ # for reports - an accidental repeated 'q' not only cancels the
+#@ # output but exits the tool.
+#@ #
+#@ #alias q quit
+#@ 
+#@ # -- End source /auto/synopsys/2006.12/admin/setup/.synopsys_pt.setup
+
+source /home/scf-07/zhiyango/.synopsys_pt.setup
+#@ #
+#@ # .synopsys_pt.setup: Initialization File for PrimeTime
+#@ #
+#@ 
+#@ 
+#@ #
+#@ # Enable stack trace output on fatal.  Not available for all architectures.
+#@ #
+#@ if { $sh_arch == "sparc" || $sh_arch == "sparcOS5" ||      $sh_arch == "hp700" || $sh_arch == "hpux10" } {
+#@   set_unix_variable SYNOPSYS_TRACE ""
+#@ }
+#@ 
+#@ #
+#@ # Variable settings
+#@ #
+#@ set sh_new_variable_message true
+#@ 
+#@ #
+#@ # Synopsys strongly recommends that you uncomment the following command
+#@ # in order to set sh_command_abbrev_mode to the value "Command-Line-Only".
+#@ # Command abbreviation is intended as an interactive convenience.  Using
+#@ # abbreviations in scripts can cause commands to fail in subsequent releases.
+#@ # 
+#@ #set sh_command_abbrev_mode "Command-Line-Only"
+#@ 
+#@ #
+#@ # Some useful aliases
+#@ #
+#@ alias list_commands		help
+#@ alias report_constraints	report_constraint
+#@ alias report_clocks		report_clock
+#@ 
+#@ #
+#@ # The alias for get_clock was added when get_clock_network_objects
+#@ # was introduced, as it conflicts with get_clocks (and get_clock is a
+#@ # typical abbreviation for get_clocks)
+#@ #
+#@ alias get_clock get_clocks
+#@ 
+#@ 
+#@ #
+#@ #
+#@ # The alias of q to quit is commented out.  Remove the comment 
+#@ # character if you want this alias.  Some users find that having 
+#@ # this particular alias causes problems when mixed with page-mode
+#@ # for reports - an accidental repeated 'q' not only cancels the
+#@ # output but exits the tool.
+#@ #
+#@ #alias q quit
+#@ # -- End source /home/scf-07/zhiyango/.synopsys_pt.setup
+
+source /auto/home-scf-07/zhiyango/ee577b/projs/viterbi/sta/.synopsys_pt.setup
+#@ # ==========================================================================
+#@ #  University of Southern California
+#@ #  Synopsys PrimeTime setup file for OSU 0.18um Standard Cell Library
+#@ #  Modified by Ehsan Pakbaznia
+#@ # ==========================================================================
+#@ # .synopsys_pt.setup: Initialization File for PrimeTime
+#@ #
+#@ 
+#@ 
+#@ #
+#@ # Enable stack trace output on fatal.  Not available for all architectures.
+#@ #
+#@ if { $sh_arch == "sparc" || $sh_arch == "sparcOS5" ||      $sh_arch == "hp700" || $sh_arch == "hpux10" } {
+#@   set_unix_variable SYNOPSYS_TRACE ""
+#@ }
+#@ 
+#@ #
+#@ # Variable settings
+#@ #
+#@ set sh_new_variable_message true
+#@ 
+#@ #
+#@ # Synopsys strongly recommends that you uncomment the following command
+#@ # in order to set sh_command_abbrev_mode to the value "Command-Line-Only".
+#@ # Command abbreviation is intended as an interactive convenience.  Using
+#@ # abbreviations in scripts can cause commands to fail in subsequent releases.
+#@ # 
+#@ #set sh_command_abbrev_mode "Command-Line-Only"
+#@ 
+#@ #
+#@ # Some useful aliases
+#@ #
+#@ alias list_commands		help
+#@ alias report_constraints	report_constraint
+#@ alias report_clocks		report_clock
+#@ 
+#@ #
+#@ # The alias for get_clock was added when get_clock_network_objects
+#@ # was introduced, as it conflicts with get_clocks (and get_clock is a
+#@ # typical abbreviation for get_clocks)
+#@ #
+#@ alias get_clock get_clocks
+#@ 
+#@ 
+#@ #
+#@ #
+#@ # The alias of q to quit is commented out.  Remove the comment 
+#@ # character if you want this alias.  Some users find that having 
+#@ # this particular alias causes problems when mixed with page-mode
+#@ # for reports - an accidental repeated 'q' not only cancels the
+#@ # output but exits the tool.
+#@ #
+#@ #alias q quit
+#@ ############################
+#@ set search_path {. ./designs }
+#@ set link_path {* /auto/home-scf-06/ee577/design_pdk/osu_stdcells/lib/tsmc018/lib/osu018_stdcells.db }
+#@ 
+#@ 
+#@ # -- End source /auto/home-scf-07/zhiyango/ee577b/projs/viterbi/sta/.synopsys_pt.setup
+
+gui_start
+gui_execute_script_from_dlg
+#@ #############################################################################
+#@ #
+#@ # EE577b Fall 2007
+#@ #
+#@ # This is a simple sample script file for PrimeTime
+#@ # Written by Ehsan Pakbaznia for EE577B Fall 2007
+#@ # Use this script template as an start poit and add/modify your own commands
+#@ #
+#@ #############################################################################
+#@ 
+#@ # Reading the design
+#@ # copy your synthesized verilog file in the ./designs/ before timing analysis
+#@ # NOTE: you should use your own design name "sta_tut.v" is just an example
+#@ read_verilog syntheziedviterbi.v ;
+#@ 
+#@ # Link the design with the library
+#@ 
+#@ link_design ;
+#@ 
+#@ # Create clock for your design
+#@ # NOTE: you should modify this command to put the appropraite clock period
+#@ # and to connect the clock to the appropriate port of your design
+#@ # this example creates a clock signal named "CLK" with period of 6.666 ns
+#@ # the created clock signal will be connected to the port "clk1" of your design 
+#@ create_clock -period 6.666 -name CLK [get_ports clk];
+#@ 
+#@ # Set the clock latency
+#@ # with this command you can specify the delay between the edge of the system 
+#@ # clock (CLK) and the edge of the clock that gets to the sequential devices 
+#@ # inside your design
+#@ 
+#@ set_clock_latency 2.0 CLK;
+#@ 
+#@ # Here you should set your input delays using the set_input_delay coammand
+#@ # here is an example for a port "in1" in your design
+#@ 
+#@ set_input_delay 2.0 -clock CLK [get_ports in1];
+#@ 
+#@ 
+#@ # Here you should set your output delay constraints using the set_input_delay coammand
+#@ # here is an example that makes the required time for all the output ports 
+#@ # in your design to be 1.0 nanoseconds before the clock edge
+#@ 
+#@ set_output_delay 1.0 -clock CLK [all_outputs];
+#@ 
+#@ # Here you can add any other command that you wish to check and report
+#@ # here is just an example
+#@ 
+#@ report_timing;
+#@ 
+#@ 
+#@ 
+#@ 
+#@ # -- End source /auto/home-scf-07/zhiyango/ee577b/projs/viterbi/sta/scripts/viterbi.tcl
+
+uplevel #0 {report_constraint -path_type slack_only -significant_digits 2}
+exity
+exit
