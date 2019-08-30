@@ -1,6 +1,6 @@
 /*
- Andrew Mattheisen amattheisen@yahoo.com
- Zhiyang Ong zhiyang@ieee.org
+ Andrew Mattheisen 
+ Zhiyang Ong
 
  EE-577b 2007 fall
  VITERBI DECODER 
