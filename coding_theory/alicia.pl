@@ -1,6 +1,6 @@
 #!/usr/usc/bin/perl
 
-# This is written by Zhiyang Ong - student number: 6004-9194-12
+# This is written by Zhiyang Ong 
 # for the second extra credit homework for EE 577B Fall 2007
 #
 #
