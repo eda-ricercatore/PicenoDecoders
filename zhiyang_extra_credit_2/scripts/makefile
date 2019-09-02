@@ -1,6 +1,6 @@
 #####################################################################
 #
-# This is written by Zhiyang Ong (zhiyango@usc.edu; 6004 9194 12)
+# This is written by Zhiyang Ong
 # for EE577b Extra Credit Homework #2
 #
 #####################################################################
