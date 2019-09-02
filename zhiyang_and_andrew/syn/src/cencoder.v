@@ -1,6 +1,6 @@
 /**
- * This is written by Andrew Mattheisen (mattheis@usc.edu; 2134 5147 11)
- * and Zhiyang Ong (zhiyango@usc.edu; 6004 9194 12)
+ * This is written by Andrew Mattheisen 
+ * and Zhiyang Ong
  */
 module conv_encoder (output [1:0] c, input b, input clk, input reset);
 	// Output signals for the design module

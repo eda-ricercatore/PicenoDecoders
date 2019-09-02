@@ -1,6 +1,6 @@
 /**
- * This is written by Zhiyang Ong (zhiyango@usc.edu; 6004 9194 12)
- * and Andrew Mattheisen (mattheis@usc.edu; 2134 5147 11)
+ * This is written by Zhiyang Ong 
+ * and Andrew Mattheisen 
  */
 module add_compare_select (npm, d, pm1, bm1, pm2, bm2);
 	/**
@@ -165,8 +165,8 @@ endmodule
 
 
 ///////////////////////////////////////////////////////////////////////////////
-/// Andrew Mattheisen amattheisen@yahoo.com
-/// Zhiyang Ong zhiyang@ieee.org
+/// Andrew Mattheisen 
+/// Zhiyang Ong 
 ///
 /// EE-577b 2007 fall
 /// VITERBI DECODER 
@@ -237,8 +237,8 @@ endmodule
 
 
 /*
- Andrew Mattheisen amattheisen@yahoo.com
- Zhiyang Ong zhiyang@ieee.org
+ Andrew Mattheisen 
+ Zhiyang Ong 
 
  EE-577b 2007 fall
  VITERBI DECODER 
@@ -268,8 +268,8 @@ endmodule
 
 
 ///////////////////////////////////////////////////////////////////////////////
-/// Andrew Mattheisen amattheisen@yahoo.com
-/// Zhiyang Ong zhiyang@ieee.org
+/// Andrew Mattheisen 
+/// Zhiyang Ong 
 ///
 /// EE-577b 2007 fall
 /// VITERBI DECODER 
@@ -367,8 +367,8 @@ module pmsm (npm0, npm1, npm2, npm3, pm0, pm1, pm2, pm3, clk, reset);
 	 end // always @ (posedge clk)
 endmodule
 /*
- Andrew Mattheisen amattheisen@yahoo.com
- Zhiyang Ong zhiyang@ieee.org
+ Andrew Mattheisen 
+ Zhiyang Ong 
 
  EE-577b 2007 fall
  VITERBI DECODER 
@@ -400,8 +400,8 @@ module selector (pm0, pm1, pm2, pm3, d0, d1);
 
 endmodule
 /*
- Andrew Mattheisen amattheisen@yahoo.com
- Zhiyang Ong zhiyang@ieee.org
+ Andrew Mattheisen 
+ Zhiyang Ong 
 
  EE-577b 2007 fall
  VITERBI DECODER 
@@ -619,8 +619,8 @@ module spd (d0, d1, d2, d3, pm0, pm1, pm2, pm3, out, clk, reset);
 
 endmodule
 /*
- Andrew Mattheisen amattheisen@yahoo.com
- Zhiyang Ong zhiyang@ieee.org
+ Andrew Mattheisen 
+ Zhiyang Ong 
 
  EE-577b 2007 fall
  VITERBI DECODER 
@@ -672,8 +672,8 @@ module spdu (in0, in1, in2, in3, d0, d1, d2, d3,
 
 endmodule
 /**
- * This is written by Zhiyang Ong (zhiyango@usc.edu; 6004 9194 12)
- * and Andrew Mattheisen (mattheis@usc.edu; 2134 5147 11)
+ * This is written by Zhiyang Ong
+ * and Andrew Mattheisen 
  */
 
 /**
