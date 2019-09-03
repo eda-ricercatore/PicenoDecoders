@@ -1,7 +1,7 @@
 #!/usr/usc/bin/perl
 
 =for
-	This is written by Zhiyang Ong, student number 6004-9194-12,
+	This is written by Zhiyang Ong
 	the second extra credit homework of EE 577B VLSI System
 	Design at the University of Southern California
 	
